@@ -271,3 +271,206 @@ a {
   outline: 1;
   cursor: pointer;
 }
+.videonews {
+  background: url(../images/videoimage.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.news_video {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  height: 600px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.news_video h4 {
+  font-size: 37px;
+  color: #fff;
+  line-height: 56px;
+  font-weight: 400;
+  text-align: center;
+  width: 852px;
+  margin-top: 175px;
+  margin-bottom: 55px;
+}
+.news__video--button {
+  border: 1px solid #e73d43;
+  font-size: 25px;
+  font-weight: 400;
+  padding: 31px 35px 33px;
+  color: #e73d43;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.news__video--button img {
+  margin-left: 39px;
+}
+.news__video--button:hover {
+  color: #fff;
+  background: red;
+  border: 1px solid transparent;
+}
+.sponsors_wrapper {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.sponsors__content {
+  width: 498px;
+  text-align: center;
+}
+.sponsors__content h1 {
+  font-size: 35px;
+  line-height: 56px;
+  font-weight: 400;
+  margin-top: 123px;
+  margin-bottom: 33px;
+}
+.sponsors__content p {
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 25px;
+}
+.sponsors__content p:last-child {
+  margin-top: 40px;
+  margin-bottom: 83px;
+}
+.sponsors__event {
+  text-align: center;
+  width: 100%;
+}
+.sponsors__event h2 {
+  font-size: 25px;
+  color: #000000;
+  line-height: 25px;
+  font-weight: 400;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-bottom: 8px;
+}
+.sponsors__event span {
+  width: 225px;
+  height: 2px;
+  background: #e73d43;
+  margin-top: 8px;
+}
+.sponsors__event--logos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.sponsors__event--logos img {
+  margin-right: 64px;
+}
+.sponsors__event--logos img:last-child {
+  margin-right: 0;
+}
+.contact {
+  background: #f2f2f2;
+}
+.contact_wrapper {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 83px;
+  padding-bottom: 96px;
+}
+.contact_wrapper h1 {
+  font-size: 35px;
+  line-height: 25px;
+  font-weight: 400;
+  color: #e73d43;
+  margin-bottom: 15px;
+}
+.contact_wrapper p {
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 400;
+  color: #464646;
+  width: 390px;
+  margin-bottom: 37px;
+  text-align: center;
+}
+.form__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+.form__wrapper label {
+  padding-top: 25px;
+}
+.form__input--email {
+  background: #fff;
+  outline: 0;
+  border: none;
+  width: 464px;
+  height: 67px;
+  color: #b7b7b7;
+}
+.contact_wrapper--submit {
+  background: #e73d43;
+  border: none;
+  outline: 0;
+  color: #fff;
+  font-size: 25px;
+  font-weight: 700;
+  height: 67px;
+  margin-top: 37px;
+}

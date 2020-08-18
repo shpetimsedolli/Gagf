@@ -136,3 +136,33 @@ a {
   width: 100%;
   margin-left: 30px;
 }
+.banner_wrapper {
+  max-width: 1920px;
+  margin: 0 auto;
+  width: 100%;
+  position: relative;
+}
+.photo {
+  background-image: url(../images/banner.jpg);
+  background-repeat: no-repeat;
+  height: 608px;
+}
+.gradient {
+  position: absolute;
+  bottom: 0;
+}
+.title__wrapper {
+  position: absolute;
+  bottom: 62px;
+  left: 285px;
+}
+.title__wrapper h1 {
+  font-size: 50px;
+  font-weight: 600;
+  color: #fff;
+}
+.title__wrapper h3 {
+  font-size: 34px;
+  font-weight: 600;
+  color: #fff;
+}

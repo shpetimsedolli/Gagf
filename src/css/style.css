@@ -166,3 +166,108 @@ a {
   font-weight: 600;
   color: #fff;
 }
+.boxes_section {
+  background: #f2f2f2;
+  padding-top: 71px;
+  padding-bottom: 27px;
+}
+.box {
+  -webkit-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+  margin-bottom: 46px;
+}
+.box:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.box__content {
+  background-color: #fff;
+  padding-left: 23px;
+  padding-top: 25px;
+}
+.box__content h3 {
+  font-size: 21px;
+  padding-right: 79px;
+  color: #e63d42;
+  line-height: 26px;
+  font-weight: 600;
+  font-size: 21px;
+  padding-bottom: 10px;
+}
+.box__content span {
+  color: #a0a0a0;
+  font-size: 16px;
+  font-weight: 500;
+  padding-bottom: 20px;
+}
+.box__content p {
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 26px;
+  padding-top: 20px;
+  color: #464646;
+  padding-right: 18.8px;
+  padding-bottom: 38px;
+}
+.morenews {
+  background: #e0353b;
+}
+.news__content {
+  background-image: url(../images/register.svg);
+  height: 340px;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.news__content p {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #fff;
+  width: 518px;
+  text-align: center;
+}
+.news__content button {
+  background: #fff;
+  width: 336px;
+  font-size: 25px;
+  height: 73px;
+  margin-top: 35px;
+  font-weight: 700;
+  display: flex;
+  color: #e73d43;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  outline: 0;
+  border: none;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.register--button h2 {
+  font-size: 25px;
+  font-weight: 700px;
+  margin-right: 28px;
+}
+.news__content button:hover {
+  border: 1px solid black;
+  outline: 1;
+  cursor: pointer;
+}

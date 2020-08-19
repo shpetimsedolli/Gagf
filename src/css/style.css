@@ -10,6 +10,7 @@ a {
 /*  HEADER */
 .topheader {
   background-color: #e0353b;
+  display: flex;
 }
 .header_top {
   background-color: #e0353b;
@@ -30,6 +31,7 @@ a {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  padding-left: 286px;
 }
 .header_left h3 {
   font-size: 15px;
@@ -45,10 +47,25 @@ a {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  padding-right: 317px;
 }
-.header__bottomarrow {
+.header_right--arrow {
+  position: relative;
+  padding-right: 25px;
+}
+.header_right--arrow img {
   margin-left: 14px;
   margin-right: 5px;
+  position: relative;
+}
+.header_right--arrow::after {
+  content: "ENG";
+    position: absolute;
+    top: 10%;
+    left: 30px;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 600;
 }
 /* .dropdown_lang a {
     border: 1px solid;
@@ -93,7 +110,8 @@ a {
   height: 180px;
 }
 .log2 {
-  margin-right: 232px;
+  margin-right: 165px;
+    margin-left: 67.6px;
 }
 .nav_wrapper ul {
   display: -webkit-box;
@@ -191,7 +209,7 @@ a {
   font-size: 21px;
   padding-right: 79px;
   color: #e63d42;
-  line-height: 26px;
+  line-height: 1.625em;
   font-weight: 600;
   font-size: 21px;
   padding-bottom: 10px;
@@ -205,7 +223,7 @@ a {
 .box__content p {
   font-size: 17px;
   font-weight: 500;
-  line-height: 26px;
+  line-height: 1.625em;
   padding-top: 20px;
   color: #464646;
   padding-right: 18.8px;
@@ -235,7 +253,7 @@ a {
 .news__content p {
   font-size: 22px;
   font-weight: 400;
-  line-height: 30px;
+  line-height: 1.875em;
   color: #fff;
   width: 518px;
   text-align: center;
@@ -293,7 +311,7 @@ a {
 .news_video h4 {
   font-size: 37px;
   color: #fff;
-  line-height: 56px;
+  line-height: 1.52em;
   font-weight: 400;
   text-align: center;
   width: 852px;
@@ -349,7 +367,7 @@ a {
 }
 .sponsors__content h1 {
   font-size: 35px;
-  line-height: 56px;
+  line-height: 1.52em;
   font-weight: 400;
   margin-top: 123px;
   margin-bottom: 33px;
@@ -357,7 +375,7 @@ a {
 .sponsors__content p {
   font-size: 17px;
   font-weight: 400;
-  line-height: 25px;
+  line-height: 1.563em;
 }
 .sponsors__content p:last-child {
   margin-top: 40px;
@@ -370,7 +388,7 @@ a {
 .sponsors__event h2 {
   font-size: 25px;
   color: #000000;
-  line-height: 25px;
+  line-height: 1.563em;
   font-weight: 400;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -430,14 +448,14 @@ a {
 }
 .contact_wrapper h1 {
   font-size: 35px;
-  line-height: 25px;
+  line-height: 1.563em;
   font-weight: 400;
   color: #e73d43;
   margin-bottom: 15px;
 }
 .contact_wrapper p {
   font-size: 18px;
-  line-height: 25px;
+  line-height: 1.563em;
   font-weight: 400;
   color: #464646;
   width: 390px;
@@ -549,7 +567,7 @@ a {
   font-size: 33px;
   font-weight: 600;
   color: #fff;
-  line-height: 40px;
+  line-height: 1.212em;
   margin-top: 55px;
   width: 516px;
   margin-left: 235px;
@@ -581,14 +599,14 @@ a {
 }
 .mainbox__content h3 {
   font-size: 50px;
-  line-height: 61px;
+  line-height: 1.22em;
   color: #e63d42;
   font-weight: 600;
 }
 .mainbox__content p {
   font-size: 17px;
   color: #464646;
-  line-height: 26px;
+  line-height: 1.625em;
 }
 .mainbox__content span {
   color: #a0a0a0;
@@ -612,7 +630,7 @@ a {
 .title h1 {
   width: 1145.31px;
   font-size: 50px;
-  line-height: 61px;
+  line-height: 1.212em;
   color: #e63d42;
   font-weight: 600;
 }
@@ -629,7 +647,7 @@ a {
 }
 .article p {
   font-size: 17px;
-  line-height: 26px;
+  line-height: 1.625em;
   font-weight: 500px;
   color: #464646;
   margin-bottom: 45px;
@@ -700,7 +718,7 @@ a {
 }
 .aside_contact h1 {
   font-size: 29px;
-  line-height: 25px;
+  line-height: 1.563em;
   color: #e0353b;
   margin-top: 82.1px;
   margin-bottom: 28px;
@@ -709,7 +727,7 @@ a {
   width: 384px;
   font-size: 18px;
   color: #464646;
-  line-height: 25px;
+  line-height: 1.563em;
   margin-bottom: 31px;
 }
 .aside__contact-wrapper label {
@@ -751,7 +769,7 @@ a {
 .aside__boxes--content h3 {
   font-size: 22px;
   color: #e63d42;
-  line-height: 26px;
+  line-height: 1.625em;
   font-weight: 600;
   font-size: 22px;
   padding-bottom: 1px;

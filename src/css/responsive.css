@@ -112,6 +112,87 @@
   .form__input--email {
     width: 100%;
   }
+
+  /* BLOG PAGE RESPONSIVE  */
+  .blog_wrapper {
+    height: auto;
+    flex-direction: column;
+  }
+  .blog_left {
+    background-position: center;
+    width: 100%;
+    background-size: cover;
+  }
+  .blog_left h1 {
+    margin: 0;
+    padding: 35px 0px;
+  }
+  .blog_right {
+    width: 100%;
+  }
+  .blog_right h4 {
+    margin: 0px;
+    width: 100%;
+    padding: 35px 0px;
+    text-align: center;
+  }
+  .mainbox_wrapper {
+    flex-direction: column;
+  }
+  .mainbox__content {
+    padding: 0px 10px;
+  }
+  .mainbox__content h3 {
+    font-size: 28px;
+  }
+  /* CONTACT PAGE RESPONSIVE  */
+
+  .title {
+    height: auto;
+  }
+  .title h1 {
+    font-size: 36px;
+    text-align: center;
+  }
+  .content_wrapper {
+    flex-direction: column;
+  }
+  .article {
+    padding: 0;
+  }
+  .article p {
+    width: 100%;
+    font-size: 15px;
+  }
+  .article__icons h5 {
+    font-size: 15px;
+  }
+  .aside_contact {
+    width: 100%;
+  }
+  .aside_contact h1 {
+    text-align: center;
+    margin-top: 0;
+  }
+  .aside_contact p {
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+  }
+  .aside__contact-wrapper {
+    padding: 0;
+  }
+  .aside__text--news::after {
+    width: 100%;
+  }
+  .aside__boxes,
+  .aside__boxes img {
+    width: 100%;
+    height: auto;
+  }
+  .aside__boxes--content h3 {
+    font-size: 20px;
+  }
   /* FOOTER RESPONSIVE  */
   .footer_wrapper {
     flex-direction: column;
@@ -201,6 +282,193 @@
   .column-tab-12 {
     width: 100%;
   }
+  /* TABLET HEADER RESPONSIVE  */
+  .topheader {
+    display: block;
+  }
+  .header_right {
+    padding: 0 20px;
+    width: 100%;
+    height: 53px;
+    justify-content: space-between;
+  }
+  .header_right--arrow img {
+    margin: 0;
+  }
+  .header_right--arrow::after {
+    left: 20px;
+  }
+  .headerWrap {
+    justify-content: space-between;
+  }
+  .log2 {
+    margin: 0;
+    padding-right: 25px;
+  }
+  .hamburger {
+    display: block;
+    width: 65px;
+    height: 50px;
+    margin-right: 20px;
+    margin-left: 50px;
+  }
+  .nav_wrapper {
+    opacity: 0;
+    visibility: hidden;
+    overflow: hidden;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 288px;
+    padding: 20px 35px;
+    background: #f2f3f3;
+    transition: all 0.3s ease-in-out;
+  }
+  .nav_wrapper ul {
+    flex-direction: column;
+  }
+  .li__items li {
+    font-size: 45px;
+    margin: 0;
+  }
+  .newsletter_tag li {
+    font-size: 60px;
+    margin-right: 0;
+    padding: 0px 25px 0px 0px;
+  }
+  .header_left {
+    padding: 0;
+    justify-content: space-between;
+    width: 100%;
+  }
+  /* MAIN RESPONSIVE TABLET */
+  .photo {
+    height: 250px;
+    background-size: cover;
+  }
+  .title__wrapper {
+    position: absolute;
+    bottom: 10px;
+    left: 15px;
+    padding: 0 10px;
+  }
+  .title__wrapper h1 {
+    font-size: 35px;
+  }
+  .title__wrapper h3 {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  .box img {
+    width: 100%;
+  }
+  .box__content h3 {
+    padding-right: 0;
+  }
+  .news__content p {
+    width: 100%;
+  }
+  .news_video {
+    height: 380px;
+  }
+  .news_video h4 {
+    font-size: 30px;
+    margin-top: 60px;
+    width: 100%;
+  }
+  .sponsors__content {
+    width: 100%;
+  }
+  .sponsors__content h1 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  .sponsors__event--logos {
+    display: flex;
+  }
+  .sponsors__event--logos img {
+    margin-top: 10px;
+    margin-right: 0;
+  }
+  .contact_wrapper h1 {
+    text-align: center;
+    font-size: 30px;
+  }
+  .contact_wrapper p {
+    width: 100%;
+    font-size: 15px;
+  }
+  .form__input--email {
+    width: 100%;
+  }
+  /* BLOG RESPONSIVE FOR TABLET  */
+  .blog_wrapper {
+    height: auto;
+    flex-direction: column;
+  }
+  .blog_left {
+    background-position: center;
+    width: 100%;
+    background-size: cover;
+  }
+  .blog_left h1 {
+    margin: 0;
+    padding: 35px 0px;
+  }
+  .blog_right {
+    width: 100%;
+  }
+  .blog_right h4 {
+    margin: 0px;
+    width: 100%;
+    padding: 35px 0px;
+    text-align: center;
+  }
+  .mainbox_wrapper {
+    flex-direction: column;
+  }
+  .mainbox__content {
+    padding: 0px 10px;
+  }
+  .mainbox__content h3 {
+    font-size: 36px;
+  }
+  /* CONTACT PAGE TABLET RESPONSIVE */
+  .content_wrapper {
+    flex-direction: column;
+  }
+  .article {
+    padding: 0;
+  }
+  .article_image {
+    width: 100%;
+  }
+  .article p {
+    width: 100%;
+  }
+  .aside_contact {
+    width: 100%;
+  }
+  .aside_contact h1 {
+    text-align: center;
+    margin-top: 0;
+  }
+  .aside_contact p {
+    width: 100%;
+    text-align: center;
+  }
+  .aside__contact-wrapper {
+    padding: 0;
+  }
+  .aside__text--news::after {
+    width: 100%;
+  }
+  .aside__boxes,
+  .aside__boxes img {
+    width: 100%;
+    height: auto;
+  }
 }
 /* This media query is used only for big tablet devices */
 @media only screen and (min-width: 991px) and (max-width: 1199px) {
@@ -239,5 +507,91 @@
   }
   .column-tablet-big-12 {
     width: 100%;
+  }
+  .topheader {
+    display: block;
+  }
+  .header_right {
+    padding: 0 20px;
+    width: 100%;
+    height: 53px;
+    justify-content: space-between;
+  }
+  .header_right--arrow img {
+    margin: 0;
+  }
+  .header_right--arrow::after {
+    left: 20px;
+  }
+  .headerWrap {
+    justify-content: space-between;
+  }
+  .log2 {
+    margin: 0;
+    padding-right: 300px;
+  }
+  .hamburger {
+    display: block;
+    width: 65px;
+    height: 50px;
+    margin-right: 20px;
+    margin-left: 50px;
+  }
+  .nav_wrapper {
+    opacity: 0;
+    visibility: hidden;
+    overflow: hidden;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 288px;
+    padding: 20px 35px;
+    background: #f2f3f3;
+    transition: all 0.3s ease-in-out;
+  }
+  .nav_wrapper ul {
+    flex-direction: column;
+  }
+  .li__items li {
+    font-size: 45px;
+    margin: 0;
+  }
+  .newsletter_tag li {
+    font-size: 60px;
+    margin-right: 0;
+    padding: 0px 25px 0px 0px;
+  }
+  .header_left {
+    padding: 0;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .photo {
+    height: 250px;
+    background-size: cover;
+  }
+  .title__wrapper {
+    position: absolute;
+    bottom: 10px;
+    left: 15px;
+    padding: 0 10px;
+  }
+  .title__wrapper h1 {
+    font-size: 45px;
+  }
+  .title__wrapper h3 {
+    font-size: 25px;
+    margin-top: 10px;
+  }
+  .box__content h3 {
+    padding-right: 38px;
+  }
+  .mainbox_wrapper {
+    flex-direction: column;
+  }
+  .content_wrapper {
+    flex-direction: column;
+    align-items: center;
   }
 }

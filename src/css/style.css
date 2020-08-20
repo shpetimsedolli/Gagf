@@ -60,12 +60,12 @@ a {
 }
 .header_right--arrow::after {
   content: "ENG";
-    position: absolute;
-    top: 10%;
-    left: 30px;
-    font-size: 15px;
-    color: #fff;
-    font-weight: 600;
+  position: absolute;
+  top: 10%;
+  left: 30px;
+  font-size: 15px;
+  color: #fff;
+  font-weight: 600;
 }
 /* .dropdown_lang a {
     border: 1px solid;
@@ -111,7 +111,15 @@ a {
 }
 .log2 {
   margin-right: 165px;
-    margin-left: 67.6px;
+  margin-left: 67.6px;
+}
+.hamburger {
+  display: none;
+  width: 32px;
+  height: 18px;
+  background-size: cover;
+  background: url(../images/icon-hamburger.svg);
+  background-repeat: no-repeat;
 }
 .nav_wrapper ul {
   display: -webkit-box;
@@ -124,6 +132,13 @@ a {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+}
+.nav_wrapper.is--toggled {
+  opacity: 1;
+  visibility: visible;
+  overflow: visible;
+  z-index: 3;
+  height: 100%;
 }
 .li__items li {
   margin-right: 28px;
